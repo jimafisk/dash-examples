@@ -1,0 +1,31 @@
+{
+  "name": "dash-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createWallet": "node --env-file=.env scripts/createWallet",
+    "createIdentity": "node --env-file=.env scripts/createIdentity",
+    "retrieveIdentities": "node --env-file=.env scripts/retrieveIdentities",
+    "topUpIdentities": "node --env-file=.env scripts/topUpIdentities",
+    "registerName": "node --env-file=.env scripts/registerName",
+    "retrieveName": "node --env-file=.env scripts/retrieveName",
+    "registerContract": "node --env-file=.env scripts/registerContract",
+    "retrieveContract": "node --env-file=.env scripts/retrieveContract",
+    "updateContract": "node --env-file=.env scripts/updateContract",
+    "submitNoteDocument": "node --env-file=.env scripts/submitNoteDocument",
+    "getDocuments": "node --env-file=.env scripts/getDocuments",
+    "updateNoteDocument": "node --env-file=.env scripts/updateNoteDocument",
+    "deleteNoteDocument": "node --env-file=.env scripts/deleteNoteDocument",
+    "express": "node --env-file=.env --watch api/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dash": "^4.0.0-dev.12",
+    "express": "^4.19.2"
+  }
+}
